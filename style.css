@@ -72,13 +72,25 @@ body {
  * Header
  */
  h3.masthead-brand {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 19px;
+    letter-spacing: 2px;
+    top: 33px;
+    left: 116px;
+    position: absolute;;
+}
+h4 {
+    position: absolute;
+    top: 57px;
     font-family: 'Patua One', cursive;
-    font-size: 42px;
-    letter-spacing: 5px;
+    left: 146px;
+    letter-spacing: 2px;
+    font-size: 37px;
 }
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
+  display: inline;
 }
 
 .masthead-nav > li {
@@ -124,7 +136,7 @@ body {
  */
 
 .cover {
-  padding: 0px 20px;
+  padding: 10px 20px;
   margin-top: 20px;
 }
 .cover .btn-lg {
@@ -138,7 +150,7 @@ background-color: rgba(255,255,255, 0.1);
 margin-right: 40px;
 padding: 10px 20px 40px 15px;
 width: 1160px;*/
-height: 286px;
+height: auto;
 margin-top: 30px;
 
 /*text-align:justify;
@@ -156,7 +168,24 @@ overflow-y: scroll;*/
 .mastfoot { /* IE8 proofing */
   color: #660000;
 }
+.form{
+  display: none;
+}
+img {
+    width: 233px;
+    padding: 10px;;
 
+}
+figcaption{
+  width: 400px;
+  text-align: center;
+  display: inline;
+  font-size: 10px;
+  margin: 0;
+}
+.more{
+  display: none;
+}
 
 /*
  * Affix and center
@@ -165,11 +194,10 @@ overflow-y: scroll;*/
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
     top: 0;
   }
   .mastfoot {
-    position: fixed;
+    position: relative;
     bottom: 0;
   }
   /* Start the vertical centering */
