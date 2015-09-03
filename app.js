@@ -39,3 +39,4 @@ function showResults(results){
   $('.inner .glass').html(html);
 }
 
+//(."more") is value.pagination.url
