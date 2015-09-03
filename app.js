@@ -27,16 +27,17 @@ function getRequest(){
 
 function showResults(results){
   var html = "";
+  var cap = "";
   $.each(results, function(index, value){
   	
      html += '<img src="' + value.images.standard_resolution.url + '"/>'; 
-    // html += '<figcaption>' + value.caption.text + '"<figcaption/>'; 
-    // $(".photo").append(value.images.standard_resolution.url);
-    // $(".caption").append(value.caption.text);
+     // html += '<figcaption>' + value.caption.text + '"</figcaption>'; 
+     // html += '<span>' + value.caption.text + '"</span>'; 
+    
 
     
   });
-  $('.inner .glass').html(html);
+  $('.inner .glass .form').html(html);
+  $('.inner .glass .form .caption').html(cap);
 }
 
-//(."more") is value.pagination.url

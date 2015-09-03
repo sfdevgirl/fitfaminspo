@@ -136,8 +136,8 @@ h4 {
  */
 
 .cover {
-  padding: 10px 20px;
   margin-top: 20px;
+  padding: 10px 20px;
 }
 .cover .btn-lg {
   padding: 10px 20px;
@@ -172,16 +172,16 @@ overflow-y: scroll;*/
   display: none;
 }
 img {
-    width: 233px;
-    padding: 10px;;
+    width: 234px;
+    padding: 20px;;;;
 
 }
 figcaption{
   width: 400px;
   text-align: center;
-  display: inline;
   font-size: 10px;
   margin: 0;
+  display: inherit;
 }
 .more{
   display: none;
