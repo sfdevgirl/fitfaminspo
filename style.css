@@ -170,23 +170,32 @@ overflow-y: scroll;*/
 }
 .form{
   display: none;
+  text-align: center;
 }
 img {
     width: 234px;
     padding: 20px;;;;
 
 }
-figcaption{
+.form figcaption{
   width: 400px;
-  text-align: center;
-  font-size: 10px;
-  margin: 0;
-  display: inherit;
+  
+  font-size: 11px;
+  margin: 0 auto;
+ /* display: inherit;*/
+}
+.form .card{
+  display: inline-block;
+  vertical-align: text-top;
+  margin-left: 25px;
+  margin-right: 16px;
 }
 .more{
   display: none;
 }
-
+a.btn.btn-lg.btn-info.more {
+    margin-top: 20px;
+}
 /*
  * Affix and center
  */
